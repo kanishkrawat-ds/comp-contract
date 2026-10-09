@@ -1,0 +1,3133 @@
+{
+  "meta": {
+    "fixtureVersion": 3,
+    "command": "main",
+    "label": "Part A (main test)",
+    "ranAt": "2026-10-09T10:04:52.704Z",
+    "durationMs": 570,
+    "editorType": "figma",
+    "figmaMode": "default",
+    "apiVersion": "1.0.0",
+    "documentColorProfile": "SRGB",
+    "panelUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Figma/126.9.13 Chrome/150.0.7871.250 Electron/43.7.9 Safari/537.36 FigmaARM"
+  },
+  "blocker": null,
+  "notice": null,
+  "fatal": null,
+  "probes": {
+    "api-surface.figma": {
+      "ok": true,
+      "ms": 1,
+      "data": {
+        "variables": {
+          "members": [
+            "createVariable",
+            "createVariableAlias",
+            "createVariableAliasByIdAsync",
+            "createVariableCollection",
+            "extendLibraryCollectionByKeyAsync",
+            "getLocalVariableCollections",
+            "getLocalVariableCollectionsAsync",
+            "getLocalVariables",
+            "getLocalVariablesAsync",
+            "getSubscribedVariables",
+            "getVariableById",
+            "getVariableByIdAsync",
+            "getVariableCollectionById",
+            "getVariableCollectionByIdAsync",
+            "importVariableByKeyAsync",
+            "setBoundVariableForEffect",
+            "setBoundVariableForLayoutGrid",
+            "setBoundVariableForPaint"
+          ],
+          "expected": {
+            "createVariableCollection": "function",
+            "createVariable": "function",
+            "getLocalVariableCollectionsAsync": "function",
+            "getLocalVariablesAsync": "function",
+            "getVariableByIdAsync": "function",
+            "getVariableCollectionByIdAsync": "function",
+            "extendLibraryCollectionByKeyAsync": "function",
+            "importVariableByKeyAsync": "function",
+            "setBoundVariableForPaint": "function",
+            "createVariableAlias": "function"
+          }
+        },
+        "teamLibrary": {
+          "members": [
+            "getAvailableLibraryVariableCollectionsAsync",
+            "getVariablesInLibraryCollectionAsync"
+          ],
+          "expected": {
+            "getAvailableLibraryVariableCollectionsAsync": "function",
+            "getVariablesInLibraryCollectionAsync": "function"
+          }
+        }
+      }
+    },
+    "preflight.existing-collections (should be empty)": {
+      "ok": true,
+      "ms": 0,
+      "data": []
+    },
+    "build.parent (2 modes)": {
+      "ok": true,
+      "ms": 33,
+      "data": {
+        "collectionId": "VariableCollectionId:2:2",
+        "modes": 2,
+        "variables": 13
+      }
+    },
+    "api-surface.collection": {
+      "ok": true,
+      "ms": 0,
+      "data": {
+        "members": [
+          "addMode",
+          "defaultModeId",
+          "extend",
+          "getPluginData",
+          "getPluginDataKeys",
+          "getPublishStatusAsync",
+          "getSharedPluginData",
+          "getSharedPluginDataKeys",
+          "hiddenFromPublishing",
+          "id",
+          "isExtension",
+          "key",
+          "modes",
+          "name",
+          "remote",
+          "remove",
+          "removeMode",
+          "renameMode",
+          "setDefaultMode",
+          "setPluginData",
+          "setSharedPluginData",
+          "variableIds"
+        ],
+        "expected": {
+          "extend": "function",
+          "addMode": "function",
+          "removeMode": "function",
+          "renameMode": "function",
+          "remove": "function",
+          "isExtension": "boolean",
+          "key": "string",
+          "defaultModeId": "string"
+        }
+      }
+    },
+    "api-surface.variable": {
+      "ok": true,
+      "ms": 1,
+      "data": {
+        "members": [
+          "codeSyntax",
+          "description",
+          "getPluginData",
+          "getPluginDataKeys",
+          "getPublishStatusAsync",
+          "getSharedPluginData",
+          "getSharedPluginDataKeys",
+          "hiddenFromPublishing",
+          "id",
+          "key",
+          "name",
+          "remote",
+          "remove",
+          "removeOverrideForMode",
+          "removeVariableCodeSyntax",
+          "resolveForConsumer",
+          "resolvedType",
+          "scopes",
+          "setPluginData",
+          "setSharedPluginData",
+          "setValueForMode",
+          "setVariableCodeSyntax",
+          "valuesByMode",
+          "valuesByModeForCollectionAsync",
+          "variableCollectionId"
+        ],
+        "expected": {
+          "setValueForMode": "function",
+          "valuesByModeForCollectionAsync": "function",
+          "resolveForConsumer": "function",
+          "remove": "function",
+          "valuesByMode": "object"
+        }
+      }
+    },
+    "api-surface.frame": {
+      "ok": true,
+      "ms": 12,
+      "data": {
+        "members": [
+          "absoluteBoundingBox",
+          "absoluteRenderBounds",
+          "absoluteTransform",
+          "addDevResourceAsync",
+          "addRelatedLinkAsync",
+          "animationStyles",
+          "animations",
+          "annotations",
+          "appendChild",
+          "appendChildAt",
+          "applyAnimationStyle",
+          "applyManualKeyframeTrack",
+          "attachedConnectors",
+          "availableInferredVariables",
+          "backgroundStyleId",
+          "backgrounds",
+          "blendMode",
+          "bottomLeftRadius",
+          "bottomRightRadius",
+          "boundVariables",
+          "children",
+          "clearExplicitVariableModeForCollection",
+          "clipsContent",
+          "clone",
+          "complexStrokeProperties",
+          "componentPropertyReferences",
+          "constrainProportions",
+          "constraints",
+          "cornerRadius",
+          "cornerSmoothing",
+          "counterAxisAlignContent",
+          "counterAxisAlignItems",
+          "counterAxisSizingMode",
+          "counterAxisSpacing",
+          "createCanvasControl",
+          "dashPattern",
+          "deleteDevResourceAsync",
+          "deleteRelatedLinkAsync",
+          "detachedInfo",
+          "devStatus",
+          "editDevResourceAsync",
+          "editRelatedLinkAsync",
+          "effectStyleId",
+          "effects",
+          "expanded",
+          "explicitVariableModes",
+          "exportAsync",
+          "exportSettings",
+          "fillGeometry",
+          "fillStyleId",
+          "fills",
+          "findAll",
+          "findAllWithCriteria",
+          "findChild",
+          "findChildren",
+          "findOne",
+          "findWidgetNodesByWidgetId",
+          "getCSSAsync",
+          "getDevResourcesAsync",
+          "getPluginData",
+          "getPluginDataKeys",
+          "getRelatedLinksAsync",
+          "getRelaunchData",
+          "getSharedPluginData",
+          "getSharedPluginDataKeys",
+          "getTopLevelFrame",
+          "gridAutoTracks",
+          "gridChildHorizontalAlign",
+          "gridChildVerticalAlign",
+          "gridColumnAnchorIndex",
+          "gridColumnCount",
+          "gridColumnGap",
+          "gridColumnSizes",
+          "gridColumnSizingCSS",
+          "gridColumnSpan",
+          "gridItemsPositioning",
+          "gridRowAnchorIndex",
+          "gridRowCount",
+          "gridRowGap",
+          "gridRowSizes",
+          "gridRowSizingCSS",
+          "gridRowSpan",
+          "gridStyleId",
+          "guides",
+          "height",
+          "horizontalPadding",
+          "id",
+          "inferredAutoLayout",
+          "inferredVariables",
+          "insertChild",
+          "isAsset",
+          "isMask",
+          "itemReverseZIndex",
+          "itemSpacing",
+          "layoutAlign",
+          "layoutGrids",
+          "layoutGrow",
+          "layoutMode",
+          "layoutPositioning",
+          "layoutSizingHorizontal",
+          "layoutSizingVertical",
+          "layoutWrap",
+          "lockAspectRatio",
+          "locked",
+          "manualKeyframeTracks",
+          "maskType",
+          "maxHeight",
+          "maxWidth",
+          "minHeight",
+          "minWidth",
+          "name",
+          "numberOfFixedChildren",
+          "opacity",
+          "outlineStroke",
+          "overflowDirection",
+          "overlayBackground",
+          "overlayBackgroundInteraction",
+          "overlayPositionType",
+          "paddingBottom",
+          "paddingLeft",
+          "paddingRight",
+          "paddingTop",
+          "parent",
+          "playbackSettings",
+          "primaryAxisAlignItems",
+          "primaryAxisSizingMode",
+          "reactions",
+          "relativeTransform",
+          "remove",
+          "removeAnimationStyle",
+          "removeManualKeyframeTrack",
+          "removed",
+          "reorderColumns",
+          "reorderRows",
+          "rescale",
+          "resize",
+          "resizeWithoutConstraints",
+          "resolvedVariableModes",
+          "rotation",
+          "setBoundVariable",
+          "setDevResourcePreviewAsync",
+          "setEffectStyleIdAsync",
+          "setExplicitVariableModeForCollection",
+          "setFillStyleIdAsync",
+          "setFillsAsync",
+          "setGridChildPosition",
+          "setGridStyleIdAsync",
+          "setPluginData",
+          "setReactionsAsync",
+          "setRelatedLinkPreviewAsync",
+          "setRelaunchData",
+          "setSharedPluginData",
+          "setStrokeStyleIdAsync",
+          "setStrokesAsync",
+          "setTimelineDuration",
+          "strokeAlign",
+          "strokeBottomWeight",
+          "strokeCap",
+          "strokeGeometry",
+          "strokeJoin",
+          "strokeLeftWeight",
+          "strokeMiterLimit",
+          "strokeRightWeight",
+          "strokeStyleId",
+          "strokeTopWeight",
+          "strokeWeight",
+          "strokes",
+          "strokesIncludedInLayout",
+          "stuckNodes",
+          "targetAspectRatio",
+          "timelines",
+          "topLeftRadius",
+          "topRightRadius",
+          "type",
+          "unlockAspectRatio",
+          "updateVariableConsumption",
+          "variableConsumptionMap",
+          "variableWidthStrokeProperties",
+          "verticalPadding",
+          "visible",
+          "width",
+          "x",
+          "y"
+        ],
+        "expected": {
+          "setExplicitVariableModeForCollection": "function",
+          "clearExplicitVariableModeForCollection": "function",
+          "explicitVariableModes": "object"
+        }
+      }
+    },
+    "build.single-mode-parent": {
+      "ok": true,
+      "ms": 4,
+      "data": {
+        "collectionId": "VariableCollectionId:2:17",
+        "modes": 1,
+        "variables": 4
+      }
+    },
+    "build.cross-collection alias in parent (brand → primitives)": {
+      "ok": true,
+      "ms": 3,
+      "data": {
+        "id": "VariableID:2:22",
+        "name": "color/semantic/brand",
+        "key": "060cc5d59c0ffce5160a1db98ba3273afa515999",
+        "remote": false,
+        "variableCollectionId": "VariableCollectionId:2:2",
+        "resolvedType": "COLOR",
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "description": "",
+        "hiddenFromPublishing": false,
+        "codeSyntax": {},
+        "valuesByMode": {
+          "2:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:18"
+          },
+          "2:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:19"
+          }
+        }
+      }
+    },
+    "extend.acme": {
+      "ok": true,
+      "ms": 4,
+      "data": {
+        "id": "VariableCollectionId:2:23",
+        "name": "Acme",
+        "key": "d7b0900ceadf7debd50c2b297811fdf2b344854e",
+        "remote": false,
+        "defaultModeId": "2:3",
+        "hiddenFromPublishing": false,
+        "modes": [
+          {
+            "modeId": "VariableCollectionId:2:23/2:3",
+            "name": "Light",
+            "parentModeId": "2:0"
+          },
+          {
+            "modeId": "VariableCollectionId:2:23/2:4",
+            "name": "Dark",
+            "parentModeId": "2:1"
+          }
+        ],
+        "variableIds": [
+          "VariableID:2:3",
+          "VariableID:2:4",
+          "VariableID:2:5",
+          "VariableID:2:6",
+          "VariableID:2:7",
+          "VariableID:2:8",
+          "VariableID:2:9",
+          "VariableID:2:10",
+          "VariableID:2:11",
+          "VariableID:2:12",
+          "VariableID:2:13",
+          "VariableID:2:14",
+          "VariableID:2:15",
+          "VariableID:2:22"
+        ],
+        "isExtension": true,
+        "parentVariableCollectionId": "VariableCollectionId:2:2",
+        "rootVariableCollectionId": "VariableCollectionId:2:2",
+        "variableOverrides": {}
+      }
+    },
+    "api-surface.extension": {
+      "ok": true,
+      "ms": 0,
+      "data": {
+        "members": [
+          "defaultModeId",
+          "extend",
+          "getPluginData",
+          "getPluginDataKeys",
+          "getPublishStatusAsync",
+          "getSharedPluginData",
+          "getSharedPluginDataKeys",
+          "hiddenFromPublishing",
+          "id",
+          "isExtension",
+          "key",
+          "modes",
+          "name",
+          "parentVariableCollectionId",
+          "remote",
+          "remove",
+          "removeOverridesForVariable",
+          "rootVariableCollectionId",
+          "setPluginData",
+          "setSharedPluginData",
+          "variableIds",
+          "variableOverrides"
+        ],
+        "expected": {
+          "extend": "function",
+          "addMode": "undefined",
+          "removeMode": "undefined",
+          "renameMode": "undefined",
+          "removeOverridesForVariable": "function",
+          "remove": "function",
+          "isExtension": "boolean",
+          "parentVariableCollectionId": "string",
+          "rootVariableCollectionId": "string",
+          "variableOverrides": "object",
+          "defaultModeId": "string"
+        }
+      }
+    },
+    "acme.override accent: Light only, alias → raw": {
+      "ok": true,
+      "ms": 7,
+      "data": {
+        "VariableCollectionId:2:23/2:3": {
+          "r": 1,
+          "g": 0.41999998688697815,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    "acme.override blue-900: both modes, raw → raw (an alias target)": {
+      "ok": true,
+      "ms": 2,
+      "data": {
+        "VariableCollectionId:2:23/2:4": {
+          "r": 0.8999999761581421,
+          "g": 0.4000000059604645,
+          "b": 0.4000000059604645,
+          "a": 1
+        },
+        "VariableCollectionId:2:23/2:3": {
+          "r": 0.6000000238418579,
+          "g": 0.10000000149011612,
+          "b": 0.10000000149011612,
+          "a": 1
+        }
+      }
+    },
+    "acme.override link: alias → alias (Light: other collection, Dark: same collection)": {
+      "ok": true,
+      "ms": 4,
+      "data": {
+        "VariableCollectionId:2:23/2:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:4"
+        },
+        "VariableCollectionId:2:23/2:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:18"
+        }
+      }
+    },
+    "acme.override surface: both modes, raw → raw": {
+      "ok": true,
+      "ms": 2,
+      "data": {
+        "VariableCollectionId:2:23/2:4": {
+          "r": 0.10000000149011612,
+          "g": 0.07999999821186066,
+          "b": 0.05999999865889549,
+          "a": 1
+        },
+        "VariableCollectionId:2:23/2:3": {
+          "r": 0.9800000190734863,
+          "g": 0.949999988079071,
+          "b": 0.8999999761581421,
+          "a": 1
+        }
+      }
+    },
+    "acme.override border: Light only, raw → alias": {
+      "ok": true,
+      "ms": 1,
+      "data": {
+        "VariableCollectionId:2:23/2:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:3"
+        }
+      }
+    },
+    "acme.override space/medium: Light only (number)": {
+      "ok": true,
+      "ms": 1,
+      "data": {
+        "VariableCollectionId:2:23/2:3": 12
+      }
+    },
+    "acme.override radius/button: both modes (scoped number)": {
+      "ok": true,
+      "ms": 2,
+      "data": {
+        "VariableCollectionId:2:23/2:4": 6,
+        "VariableCollectionId:2:23/2:3": 6
+      }
+    },
+    "acme.override text/enabled: Light only (boolean)": {
+      "ok": true,
+      "ms": 1,
+      "data": {
+        "VariableCollectionId:2:23/2:3": false
+      }
+    },
+    "acme.override brand/name: Light only (string)": {
+      "ok": true,
+      "ms": 1,
+      "data": {
+        "VariableCollectionId:2:23/2:3": "Acme"
+      }
+    },
+    "acme.override brand/tagline: Light only (reset later)": {
+      "ok": true,
+      "ms": 2,
+      "data": {
+        "VariableCollectionId:2:23/2:3": "Acme tagline"
+      }
+    },
+    "extend.beta (second brand)": {
+      "ok": true,
+      "ms": 0,
+      "data": {
+        "id": "VariableCollectionId:2:34",
+        "name": "Beta",
+        "key": "9ec816651c03139ecc17086d9f224aa1331a184d",
+        "remote": false,
+        "defaultModeId": "2:5",
+        "hiddenFromPublishing": false,
+        "modes": [
+          {
+            "modeId": "VariableCollectionId:2:34/2:5",
+            "name": "Light",
+            "parentModeId": "2:0"
+          },
+          {
+            "modeId": "VariableCollectionId:2:34/2:6",
+            "name": "Dark",
+            "parentModeId": "2:1"
+          }
+        ],
+        "variableIds": [
+          "VariableID:2:3",
+          "VariableID:2:4",
+          "VariableID:2:5",
+          "VariableID:2:6",
+          "VariableID:2:7",
+          "VariableID:2:8",
+          "VariableID:2:9",
+          "VariableID:2:10",
+          "VariableID:2:11",
+          "VariableID:2:12",
+          "VariableID:2:13",
+          "VariableID:2:14",
+          "VariableID:2:15",
+          "VariableID:2:22"
+        ],
+        "isExtension": true,
+        "parentVariableCollectionId": "VariableCollectionId:2:2",
+        "rootVariableCollectionId": "VariableCollectionId:2:2",
+        "variableOverrides": {}
+      }
+    },
+    "beta.override space/medium + brand/name (Light)": {
+      "ok": true,
+      "ms": 2,
+      "data": {
+        "spaceMedium": {
+          "VariableCollectionId:2:34/2:5": 20
+        },
+        "brandName": {
+          "VariableCollectionId:2:34/2:5": "Beta"
+        }
+      }
+    },
+    "extend.chain (Acme Sub extends Acme)": {
+      "ok": true,
+      "ms": 1,
+      "data": {
+        "id": "VariableCollectionId:2:37",
+        "name": "Acme Sub",
+        "key": "7fc415fae17716aca9c0ecf06ff4bb0ef599d779",
+        "remote": false,
+        "defaultModeId": "2:7",
+        "hiddenFromPublishing": false,
+        "modes": [
+          {
+            "modeId": "VariableCollectionId:2:37/2:7",
+            "name": "Light",
+            "parentModeId": "VariableCollectionId:2:23/2:3"
+          },
+          {
+            "modeId": "VariableCollectionId:2:37/2:8",
+            "name": "Dark",
+            "parentModeId": "VariableCollectionId:2:23/2:4"
+          }
+        ],
+        "variableIds": [
+          "VariableID:2:3",
+          "VariableID:2:4",
+          "VariableID:2:5",
+          "VariableID:2:6",
+          "VariableID:2:7",
+          "VariableID:2:8",
+          "VariableID:2:9",
+          "VariableID:2:10",
+          "VariableID:2:11",
+          "VariableID:2:12",
+          "VariableID:2:13",
+          "VariableID:2:14",
+          "VariableID:2:15",
+          "VariableID:2:22"
+        ],
+        "isExtension": true,
+        "parentVariableCollectionId": "VariableCollectionId:2:23",
+        "rootVariableCollectionId": "VariableCollectionId:2:2",
+        "variableOverrides": {}
+      }
+    },
+    "chain.override brand/name (Light)": {
+      "ok": true,
+      "ms": 1,
+      "data": {
+        "VariableCollectionId:2:37/2:7": "Acme Sub"
+      }
+    },
+    "extend.single-mode (Primitives Acme)": {
+      "ok": true,
+      "ms": 0,
+      "data": {
+        "id": "VariableCollectionId:2:39",
+        "name": "Primitives Acme",
+        "key": "48c94196af19115eb139909d18aa9847c562719a",
+        "remote": false,
+        "defaultModeId": "2:9",
+        "hiddenFromPublishing": false,
+        "modes": [
+          {
+            "modeId": "VariableCollectionId:2:39/2:9",
+            "name": "Default",
+            "parentModeId": "2:2"
+          }
+        ],
+        "variableIds": [
+          "VariableID:2:18",
+          "VariableID:2:19",
+          "VariableID:2:20",
+          "VariableID:2:21"
+        ],
+        "isExtension": true,
+        "parentVariableCollectionId": "VariableCollectionId:2:17",
+        "rootVariableCollectionId": "VariableCollectionId:2:17",
+        "variableOverrides": {}
+      }
+    },
+    "single-mode.override red-500, size/base, accent-alias": {
+      "ok": true,
+      "ms": 3,
+      "data": {
+        "VariableID:2:20": {
+          "VariableCollectionId:2:39/2:9": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:18"
+          }
+        },
+        "VariableID:2:21": {
+          "VariableCollectionId:2:39/2:9": 18
+        },
+        "VariableID:2:18": {
+          "VariableCollectionId:2:39/2:9": {
+            "r": 0.800000011920929,
+            "g": 0.10000000149011612,
+            "b": 0.5,
+            "a": 1
+          }
+        }
+      }
+    },
+    "lookup-by-id": {
+      "ok": true,
+      "ms": 235,
+      "data": {
+        "extension": {
+          "id": "VariableCollectionId:2:23",
+          "name": "Acme",
+          "key": "d7b0900ceadf7debd50c2b297811fdf2b344854e",
+          "remote": false,
+          "defaultModeId": "2:3",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "VariableCollectionId:2:23/2:3",
+              "name": "Light",
+              "parentModeId": "2:0"
+            },
+            {
+              "modeId": "VariableCollectionId:2:23/2:4",
+              "name": "Dark",
+              "parentModeId": "2:1"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:3",
+            "VariableID:2:4",
+            "VariableID:2:5",
+            "VariableID:2:6",
+            "VariableID:2:7",
+            "VariableID:2:8",
+            "VariableID:2:9",
+            "VariableID:2:10",
+            "VariableID:2:11",
+            "VariableID:2:12",
+            "VariableID:2:13",
+            "VariableID:2:14",
+            "VariableID:2:15",
+            "VariableID:2:22"
+          ],
+          "isExtension": true,
+          "parentVariableCollectionId": "VariableCollectionId:2:2",
+          "rootVariableCollectionId": "VariableCollectionId:2:2",
+          "variableOverrides": {
+            "VariableID:2:12": {
+              "VariableCollectionId:2:23/2:4": 6,
+              "VariableCollectionId:2:23/2:3": 6
+            },
+            "VariableID:2:13": {
+              "VariableCollectionId:2:23/2:3": false
+            },
+            "VariableID:2:15": {
+              "VariableCollectionId:2:23/2:3": "Acme tagline"
+            },
+            "VariableID:2:11": {
+              "VariableCollectionId:2:23/2:3": 12
+            },
+            "VariableID:2:5": {
+              "VariableCollectionId:2:23/2:3": {
+                "r": 1,
+                "g": 0.41999998688697815,
+                "b": 0,
+                "a": 1
+              }
+            },
+            "VariableID:2:4": {
+              "VariableCollectionId:2:23/2:4": {
+                "r": 0.8999999761581421,
+                "g": 0.4000000059604645,
+                "b": 0.4000000059604645,
+                "a": 1
+              },
+              "VariableCollectionId:2:23/2:3": {
+                "r": 0.6000000238418579,
+                "g": 0.10000000149011612,
+                "b": 0.10000000149011612,
+                "a": 1
+              }
+            },
+            "VariableID:2:14": {
+              "VariableCollectionId:2:23/2:3": "Acme"
+            },
+            "VariableID:2:7": {
+              "VariableCollectionId:2:23/2:4": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2:4"
+              },
+              "VariableCollectionId:2:23/2:3": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2:18"
+              }
+            },
+            "VariableID:2:9": {
+              "VariableCollectionId:2:23/2:3": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2:3"
+              }
+            },
+            "VariableID:2:8": {
+              "VariableCollectionId:2:23/2:4": {
+                "r": 0.10000000149011612,
+                "g": 0.07999999821186066,
+                "b": 0.05999999865889549,
+                "a": 1
+              },
+              "VariableCollectionId:2:23/2:3": {
+                "r": 0.9800000190734863,
+                "g": 0.949999988079071,
+                "b": 0.8999999761581421,
+                "a": 1
+              }
+            }
+          }
+        },
+        "variable": {
+          "id": "VariableID:2:5",
+          "name": "color/semantic/accent",
+          "key": "d80c3cf80f27166c948621b187b923950d62825b",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            },
+            "2:1": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          }
+        }
+      }
+    },
+    "snapshot.collections": {
+      "ok": true,
+      "ms": 2,
+      "data": [
+        {
+          "id": "VariableCollectionId:2:2",
+          "name": "ExtColl Parent",
+          "key": "2c02ce16e5e2c67590fc98d9ed33bed53aee5747",
+          "remote": false,
+          "defaultModeId": "2:0",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "2:0",
+              "name": "Light",
+              "parentModeId": "__undefined__"
+            },
+            {
+              "modeId": "2:1",
+              "name": "Dark",
+              "parentModeId": "__undefined__"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:3",
+            "VariableID:2:4",
+            "VariableID:2:5",
+            "VariableID:2:6",
+            "VariableID:2:7",
+            "VariableID:2:8",
+            "VariableID:2:9",
+            "VariableID:2:10",
+            "VariableID:2:11",
+            "VariableID:2:12",
+            "VariableID:2:13",
+            "VariableID:2:14",
+            "VariableID:2:15",
+            "VariableID:2:22"
+          ],
+          "isExtension": false,
+          "parentVariableCollectionId": "__undefined__",
+          "rootVariableCollectionId": "__undefined__",
+          "variableOverrides": "__undefined__"
+        },
+        {
+          "id": "VariableCollectionId:2:17",
+          "name": "ExtColl Primitives",
+          "key": "c05724b76a5ab86c1cc1c8d0e6911cae691d5a2a",
+          "remote": false,
+          "defaultModeId": "2:2",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "2:2",
+              "name": "Default",
+              "parentModeId": "__undefined__"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:18",
+            "VariableID:2:19",
+            "VariableID:2:20",
+            "VariableID:2:21"
+          ],
+          "isExtension": false,
+          "parentVariableCollectionId": "__undefined__",
+          "rootVariableCollectionId": "__undefined__",
+          "variableOverrides": "__undefined__"
+        },
+        {
+          "id": "VariableCollectionId:2:23",
+          "name": "Acme",
+          "key": "d7b0900ceadf7debd50c2b297811fdf2b344854e",
+          "remote": false,
+          "defaultModeId": "2:3",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "VariableCollectionId:2:23/2:3",
+              "name": "Light",
+              "parentModeId": "2:0"
+            },
+            {
+              "modeId": "VariableCollectionId:2:23/2:4",
+              "name": "Dark",
+              "parentModeId": "2:1"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:3",
+            "VariableID:2:4",
+            "VariableID:2:5",
+            "VariableID:2:6",
+            "VariableID:2:7",
+            "VariableID:2:8",
+            "VariableID:2:9",
+            "VariableID:2:10",
+            "VariableID:2:11",
+            "VariableID:2:12",
+            "VariableID:2:13",
+            "VariableID:2:14",
+            "VariableID:2:15",
+            "VariableID:2:22"
+          ],
+          "isExtension": true,
+          "parentVariableCollectionId": "VariableCollectionId:2:2",
+          "rootVariableCollectionId": "VariableCollectionId:2:2",
+          "variableOverrides": {
+            "VariableID:2:12": {
+              "VariableCollectionId:2:23/2:4": 6,
+              "VariableCollectionId:2:23/2:3": 6
+            },
+            "VariableID:2:13": {
+              "VariableCollectionId:2:23/2:3": false
+            },
+            "VariableID:2:15": {
+              "VariableCollectionId:2:23/2:3": "Acme tagline"
+            },
+            "VariableID:2:11": {
+              "VariableCollectionId:2:23/2:3": 12
+            },
+            "VariableID:2:5": {
+              "VariableCollectionId:2:23/2:3": {
+                "r": 1,
+                "g": 0.41999998688697815,
+                "b": 0,
+                "a": 1
+              }
+            },
+            "VariableID:2:4": {
+              "VariableCollectionId:2:23/2:4": {
+                "r": 0.8999999761581421,
+                "g": 0.4000000059604645,
+                "b": 0.4000000059604645,
+                "a": 1
+              },
+              "VariableCollectionId:2:23/2:3": {
+                "r": 0.6000000238418579,
+                "g": 0.10000000149011612,
+                "b": 0.10000000149011612,
+                "a": 1
+              }
+            },
+            "VariableID:2:14": {
+              "VariableCollectionId:2:23/2:3": "Acme"
+            },
+            "VariableID:2:7": {
+              "VariableCollectionId:2:23/2:4": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2:4"
+              },
+              "VariableCollectionId:2:23/2:3": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2:18"
+              }
+            },
+            "VariableID:2:9": {
+              "VariableCollectionId:2:23/2:3": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2:3"
+              }
+            },
+            "VariableID:2:8": {
+              "VariableCollectionId:2:23/2:4": {
+                "r": 0.10000000149011612,
+                "g": 0.07999999821186066,
+                "b": 0.05999999865889549,
+                "a": 1
+              },
+              "VariableCollectionId:2:23/2:3": {
+                "r": 0.9800000190734863,
+                "g": 0.949999988079071,
+                "b": 0.8999999761581421,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "VariableCollectionId:2:34",
+          "name": "Beta",
+          "key": "9ec816651c03139ecc17086d9f224aa1331a184d",
+          "remote": false,
+          "defaultModeId": "2:5",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "VariableCollectionId:2:34/2:5",
+              "name": "Light",
+              "parentModeId": "2:0"
+            },
+            {
+              "modeId": "VariableCollectionId:2:34/2:6",
+              "name": "Dark",
+              "parentModeId": "2:1"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:3",
+            "VariableID:2:4",
+            "VariableID:2:5",
+            "VariableID:2:6",
+            "VariableID:2:7",
+            "VariableID:2:8",
+            "VariableID:2:9",
+            "VariableID:2:10",
+            "VariableID:2:11",
+            "VariableID:2:12",
+            "VariableID:2:13",
+            "VariableID:2:14",
+            "VariableID:2:15",
+            "VariableID:2:22"
+          ],
+          "isExtension": true,
+          "parentVariableCollectionId": "VariableCollectionId:2:2",
+          "rootVariableCollectionId": "VariableCollectionId:2:2",
+          "variableOverrides": {
+            "VariableID:2:14": {
+              "VariableCollectionId:2:34/2:5": "Beta"
+            },
+            "VariableID:2:11": {
+              "VariableCollectionId:2:34/2:5": 20
+            }
+          }
+        },
+        {
+          "id": "VariableCollectionId:2:37",
+          "name": "Acme Sub",
+          "key": "7fc415fae17716aca9c0ecf06ff4bb0ef599d779",
+          "remote": false,
+          "defaultModeId": "2:7",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "VariableCollectionId:2:37/2:7",
+              "name": "Light",
+              "parentModeId": "VariableCollectionId:2:23/2:3"
+            },
+            {
+              "modeId": "VariableCollectionId:2:37/2:8",
+              "name": "Dark",
+              "parentModeId": "VariableCollectionId:2:23/2:4"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:3",
+            "VariableID:2:4",
+            "VariableID:2:5",
+            "VariableID:2:6",
+            "VariableID:2:7",
+            "VariableID:2:8",
+            "VariableID:2:9",
+            "VariableID:2:10",
+            "VariableID:2:11",
+            "VariableID:2:12",
+            "VariableID:2:13",
+            "VariableID:2:14",
+            "VariableID:2:15",
+            "VariableID:2:22"
+          ],
+          "isExtension": true,
+          "parentVariableCollectionId": "VariableCollectionId:2:23",
+          "rootVariableCollectionId": "VariableCollectionId:2:2",
+          "variableOverrides": {
+            "VariableID:2:14": {
+              "VariableCollectionId:2:37/2:7": "Acme Sub"
+            }
+          }
+        },
+        {
+          "id": "VariableCollectionId:2:39",
+          "name": "Primitives Acme",
+          "key": "48c94196af19115eb139909d18aa9847c562719a",
+          "remote": false,
+          "defaultModeId": "2:9",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "VariableCollectionId:2:39/2:9",
+              "name": "Default",
+              "parentModeId": "2:2"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:18",
+            "VariableID:2:19",
+            "VariableID:2:20",
+            "VariableID:2:21"
+          ],
+          "isExtension": true,
+          "parentVariableCollectionId": "VariableCollectionId:2:17",
+          "rootVariableCollectionId": "VariableCollectionId:2:17",
+          "variableOverrides": {
+            "VariableID:2:20": {
+              "VariableCollectionId:2:39/2:9": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2:18"
+              }
+            },
+            "VariableID:2:21": {
+              "VariableCollectionId:2:39/2:9": 18
+            },
+            "VariableID:2:18": {
+              "VariableCollectionId:2:39/2:9": {
+                "r": 0.800000011920929,
+                "g": 0.10000000149011612,
+                "b": 0.5,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "snapshot.variables": {
+      "ok": true,
+      "ms": 4,
+      "data": [
+        {
+          "id": "VariableID:2:3",
+          "name": "color/primitive/blue-500",
+          "key": "1434adb03199ce04426cc92b82e45d3ebfce0224",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": {
+              "r": 0.23000000417232513,
+              "g": 0.5099999904632568,
+              "b": 0.9599999785423279,
+              "a": 1
+            },
+            "2:1": {
+              "r": 0.23000000417232513,
+              "g": 0.5099999904632568,
+              "b": 0.9599999785423279,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:2:4",
+          "name": "color/primitive/blue-900",
+          "key": "ea0a626a963bdc7c4a7e741eb892db49061d5980",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": {
+              "r": 0.09000000357627869,
+              "g": 0.12999999523162842,
+              "b": 0.3400000035762787,
+              "a": 1
+            },
+            "2:1": {
+              "r": 0.09000000357627869,
+              "g": 0.12999999523162842,
+              "b": 0.3400000035762787,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:2:5",
+          "name": "color/semantic/accent",
+          "key": "d80c3cf80f27166c948621b187b923950d62825b",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            },
+            "2:1": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          }
+        },
+        {
+          "id": "VariableID:2:6",
+          "name": "color/semantic/text",
+          "key": "9e9b5c51f75810970eafd6787595ceb5575e35d5",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            },
+            "2:1": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          }
+        },
+        {
+          "id": "VariableID:2:7",
+          "name": "color/semantic/link",
+          "key": "6f8bc041d7d71a72acb236c5ce66e00db57258a9",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            },
+            "2:1": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            }
+          }
+        },
+        {
+          "id": "VariableID:2:8",
+          "name": "color/semantic/surface",
+          "key": "73ddb1bfeef5632c1eee9c044606915e23e53ea5",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "2:1": {
+              "r": 0.07000000029802322,
+              "g": 0.07000000029802322,
+              "b": 0.07000000029802322,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:2:9",
+          "name": "color/semantic/border",
+          "key": "5ea3184afee27b984ad2afd69a52f705cbd4dee2",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": {
+              "r": 0.800000011920929,
+              "g": 0.800000011920929,
+              "b": 0.800000011920929,
+              "a": 1
+            },
+            "2:1": {
+              "r": 0.30000001192092896,
+              "g": 0.30000001192092896,
+              "b": 0.30000001192092896,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:2:10",
+          "name": "space/small",
+          "key": "cf593926bddbcee6a822cd5deb6c579c1e3232c8",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "FLOAT",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": 4,
+            "2:1": 4
+          }
+        },
+        {
+          "id": "VariableID:2:11",
+          "name": "space/medium",
+          "key": "98712f463c8fc224befbf500b1d23885c1db1aa7",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "FLOAT",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": 8,
+            "2:1": 8
+          }
+        },
+        {
+          "id": "VariableID:2:12",
+          "name": "radius/button",
+          "key": "894a3b531fcc4a8882e03e897bda3da3421283e2",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "FLOAT",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": 8,
+            "2:1": 8
+          }
+        },
+        {
+          "id": "VariableID:2:13",
+          "name": "text/enabled",
+          "key": "72e884e3fba9a02634d4d54642c6d468287d6a26",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "BOOLEAN",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": true,
+            "2:1": true
+          }
+        },
+        {
+          "id": "VariableID:2:14",
+          "name": "brand/name",
+          "key": "57a8f455445a9cb6789b761b4cfab967277cf6b0",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "STRING",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": "Base",
+            "2:1": "Base"
+          }
+        },
+        {
+          "id": "VariableID:2:15",
+          "name": "brand/tagline",
+          "key": "7f61bfdba383a1f7eea9f288efc0c81ff7fae0b1",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "STRING",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": "Base tagline",
+            "2:1": "Base tagline"
+          }
+        },
+        {
+          "id": "VariableID:2:18",
+          "name": "brand/red-500",
+          "key": "905009c5d9dbd825417676d6dbee86184fa2e241",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:17",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:2": {
+              "r": 0.8999999761581421,
+              "g": 0.20000000298023224,
+              "b": 0.20000000298023224,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:2:19",
+          "name": "brand/red-900",
+          "key": "779e4a9ebdb9c04eb923e030b3676dbcaa29c379",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:17",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:2": {
+              "r": 0.44999998807907104,
+              "g": 0.05000000074505806,
+              "b": 0.05000000074505806,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:2:20",
+          "name": "brand/accent-alias",
+          "key": "37d6531c5ff5eec98603e88ade439ef848876760",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:17",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:2": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:19"
+            }
+          }
+        },
+        {
+          "id": "VariableID:2:21",
+          "name": "size/base",
+          "key": "b4c57ad9a352f04cd92a623292c6e01608a9af91",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:17",
+          "resolvedType": "FLOAT",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:2": 16
+          }
+        },
+        {
+          "id": "VariableID:2:22",
+          "name": "color/semantic/brand",
+          "key": "060cc5d59c0ffce5160a1db98ba3273afa515999",
+          "remote": false,
+          "variableCollectionId": "VariableCollectionId:2:2",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "description": "",
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "valuesByMode": {
+            "2:0": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:18"
+            },
+            "2:1": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:19"
+            }
+          }
+        }
+      ]
+    },
+    "effective-values": {
+      "ok": true,
+      "ms": 6,
+      "data": {
+        "ExtColl Parent": {
+          "color/primitive/blue-500": {
+            "2:0": {
+              "r": 0.23000000417232513,
+              "g": 0.5099999904632568,
+              "b": 0.9599999785423279,
+              "a": 1
+            },
+            "2:1": {
+              "r": 0.23000000417232513,
+              "g": 0.5099999904632568,
+              "b": 0.9599999785423279,
+              "a": 1
+            }
+          },
+          "color/primitive/blue-900": {
+            "2:0": {
+              "r": 0.09000000357627869,
+              "g": 0.12999999523162842,
+              "b": 0.3400000035762787,
+              "a": 1
+            },
+            "2:1": {
+              "r": 0.09000000357627869,
+              "g": 0.12999999523162842,
+              "b": 0.3400000035762787,
+              "a": 1
+            }
+          },
+          "color/semantic/accent": {
+            "2:0": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            },
+            "2:1": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          },
+          "color/semantic/text": {
+            "2:0": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            },
+            "2:1": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          },
+          "color/semantic/link": {
+            "2:0": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            },
+            "2:1": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            }
+          },
+          "color/semantic/surface": {
+            "2:0": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "2:1": {
+              "r": 0.07000000029802322,
+              "g": 0.07000000029802322,
+              "b": 0.07000000029802322,
+              "a": 1
+            }
+          },
+          "color/semantic/border": {
+            "2:0": {
+              "r": 0.800000011920929,
+              "g": 0.800000011920929,
+              "b": 0.800000011920929,
+              "a": 1
+            },
+            "2:1": {
+              "r": 0.30000001192092896,
+              "g": 0.30000001192092896,
+              "b": 0.30000001192092896,
+              "a": 1
+            }
+          },
+          "space/small": {
+            "2:0": 4,
+            "2:1": 4
+          },
+          "space/medium": {
+            "2:0": 8,
+            "2:1": 8
+          },
+          "radius/button": {
+            "2:0": 8,
+            "2:1": 8
+          },
+          "text/enabled": {
+            "2:0": true,
+            "2:1": true
+          },
+          "brand/name": {
+            "2:0": "Base",
+            "2:1": "Base"
+          },
+          "brand/tagline": {
+            "2:0": "Base tagline",
+            "2:1": "Base tagline"
+          },
+          "color/semantic/brand": {
+            "2:0": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:18"
+            },
+            "2:1": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:19"
+            }
+          }
+        },
+        "Acme": {
+          "color/primitive/blue-500": {
+            "VariableCollectionId:2:23/2:3": {
+              "r": 0.23000000417232513,
+              "g": 0.5099999904632568,
+              "b": 0.9599999785423279,
+              "a": 1
+            },
+            "VariableCollectionId:2:23/2:4": {
+              "r": 0.23000000417232513,
+              "g": 0.5099999904632568,
+              "b": 0.9599999785423279,
+              "a": 1
+            }
+          },
+          "color/primitive/blue-900": {
+            "VariableCollectionId:2:23/2:3": {
+              "r": 0.6000000238418579,
+              "g": 0.10000000149011612,
+              "b": 0.10000000149011612,
+              "a": 1
+            },
+            "VariableCollectionId:2:23/2:4": {
+              "r": 0.8999999761581421,
+              "g": 0.4000000059604645,
+              "b": 0.4000000059604645,
+              "a": 1
+            }
+          },
+          "color/semantic/accent": {
+            "VariableCollectionId:2:23/2:3": {
+              "r": 1,
+              "g": 0.41999998688697815,
+              "b": 0,
+              "a": 1
+            },
+            "VariableCollectionId:2:23/2:4": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          },
+          "color/semantic/text": {
+            "VariableCollectionId:2:23/2:3": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            },
+            "VariableCollectionId:2:23/2:4": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          },
+          "color/semantic/link": {
+            "VariableCollectionId:2:23/2:3": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:18"
+            },
+            "VariableCollectionId:2:23/2:4": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          },
+          "color/semantic/surface": {
+            "VariableCollectionId:2:23/2:3": {
+              "r": 0.9800000190734863,
+              "g": 0.949999988079071,
+              "b": 0.8999999761581421,
+              "a": 1
+            },
+            "VariableCollectionId:2:23/2:4": {
+              "r": 0.10000000149011612,
+              "g": 0.07999999821186066,
+              "b": 0.05999999865889549,
+              "a": 1
+            }
+          },
+          "color/semantic/border": {
+            "VariableCollectionId:2:23/2:3": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            },
+            "VariableCollectionId:2:23/2:4": {
+              "r": 0.30000001192092896,
+              "g": 0.30000001192092896,
+              "b": 0.30000001192092896,
+              "a": 1
+            }
+          },
+          "space/small": {
+            "VariableCollectionId:2:23/2:3": 4,
+            "VariableCollectionId:2:23/2:4": 4
+          },
+          "space/medium": {
+            "VariableCollectionId:2:23/2:3": 12,
+            "VariableCollectionId:2:23/2:4": 8
+          },
+          "radius/button": {
+            "VariableCollectionId:2:23/2:3": 6,
+            "VariableCollectionId:2:23/2:4": 6
+          },
+          "text/enabled": {
+            "VariableCollectionId:2:23/2:3": false,
+            "VariableCollectionId:2:23/2:4": true
+          },
+          "brand/name": {
+            "VariableCollectionId:2:23/2:3": "Acme",
+            "VariableCollectionId:2:23/2:4": "Base"
+          },
+          "brand/tagline": {
+            "VariableCollectionId:2:23/2:3": "Acme tagline",
+            "VariableCollectionId:2:23/2:4": "Base tagline"
+          },
+          "color/semantic/brand": {
+            "VariableCollectionId:2:23/2:3": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:18"
+            },
+            "VariableCollectionId:2:23/2:4": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:19"
+            }
+          }
+        },
+        "Beta": {
+          "color/primitive/blue-500": {
+            "VariableCollectionId:2:34/2:5": {
+              "r": 0.23000000417232513,
+              "g": 0.5099999904632568,
+              "b": 0.9599999785423279,
+              "a": 1
+            },
+            "VariableCollectionId:2:34/2:6": {
+              "r": 0.23000000417232513,
+              "g": 0.5099999904632568,
+              "b": 0.9599999785423279,
+              "a": 1
+            }
+          },
+          "color/primitive/blue-900": {
+            "VariableCollectionId:2:34/2:5": {
+              "r": 0.09000000357627869,
+              "g": 0.12999999523162842,
+              "b": 0.3400000035762787,
+              "a": 1
+            },
+            "VariableCollectionId:2:34/2:6": {
+              "r": 0.09000000357627869,
+              "g": 0.12999999523162842,
+              "b": 0.3400000035762787,
+              "a": 1
+            }
+          },
+          "color/semantic/accent": {
+            "VariableCollectionId:2:34/2:5": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            },
+            "VariableCollectionId:2:34/2:6": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          },
+          "color/semantic/text": {
+            "VariableCollectionId:2:34/2:5": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            },
+            "VariableCollectionId:2:34/2:6": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          },
+          "color/semantic/link": {
+            "VariableCollectionId:2:34/2:5": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            },
+            "VariableCollectionId:2:34/2:6": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            }
+          },
+          "color/semantic/surface": {
+            "VariableCollectionId:2:34/2:5": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "VariableCollectionId:2:34/2:6": {
+              "r": 0.07000000029802322,
+              "g": 0.07000000029802322,
+              "b": 0.07000000029802322,
+              "a": 1
+            }
+          },
+          "color/semantic/border": {
+            "VariableCollectionId:2:34/2:5": {
+              "r": 0.800000011920929,
+              "g": 0.800000011920929,
+              "b": 0.800000011920929,
+              "a": 1
+            },
+            "VariableCollectionId:2:34/2:6": {
+              "r": 0.30000001192092896,
+              "g": 0.30000001192092896,
+              "b": 0.30000001192092896,
+              "a": 1
+            }
+          },
+          "space/small": {
+            "VariableCollectionId:2:34/2:5": 4,
+            "VariableCollectionId:2:34/2:6": 4
+          },
+          "space/medium": {
+            "VariableCollectionId:2:34/2:5": 20,
+            "VariableCollectionId:2:34/2:6": 8
+          },
+          "radius/button": {
+            "VariableCollectionId:2:34/2:5": 8,
+            "VariableCollectionId:2:34/2:6": 8
+          },
+          "text/enabled": {
+            "VariableCollectionId:2:34/2:5": true,
+            "VariableCollectionId:2:34/2:6": true
+          },
+          "brand/name": {
+            "VariableCollectionId:2:34/2:5": "Beta",
+            "VariableCollectionId:2:34/2:6": "Base"
+          },
+          "brand/tagline": {
+            "VariableCollectionId:2:34/2:5": "Base tagline",
+            "VariableCollectionId:2:34/2:6": "Base tagline"
+          },
+          "color/semantic/brand": {
+            "VariableCollectionId:2:34/2:5": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:18"
+            },
+            "VariableCollectionId:2:34/2:6": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:19"
+            }
+          }
+        },
+        "Acme Sub": {
+          "color/primitive/blue-500": {
+            "VariableCollectionId:2:37/2:7": {
+              "r": 0.23000000417232513,
+              "g": 0.5099999904632568,
+              "b": 0.9599999785423279,
+              "a": 1
+            },
+            "VariableCollectionId:2:37/2:8": {
+              "r": 0.23000000417232513,
+              "g": 0.5099999904632568,
+              "b": 0.9599999785423279,
+              "a": 1
+            }
+          },
+          "color/primitive/blue-900": {
+            "VariableCollectionId:2:37/2:7": {
+              "r": 0.6000000238418579,
+              "g": 0.10000000149011612,
+              "b": 0.10000000149011612,
+              "a": 1
+            },
+            "VariableCollectionId:2:37/2:8": {
+              "r": 0.8999999761581421,
+              "g": 0.4000000059604645,
+              "b": 0.4000000059604645,
+              "a": 1
+            }
+          },
+          "color/semantic/accent": {
+            "VariableCollectionId:2:37/2:7": {
+              "r": 1,
+              "g": 0.41999998688697815,
+              "b": 0,
+              "a": 1
+            },
+            "VariableCollectionId:2:37/2:8": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          },
+          "color/semantic/text": {
+            "VariableCollectionId:2:37/2:7": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            },
+            "VariableCollectionId:2:37/2:8": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          },
+          "color/semantic/link": {
+            "VariableCollectionId:2:37/2:7": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:18"
+            },
+            "VariableCollectionId:2:37/2:8": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          },
+          "color/semantic/surface": {
+            "VariableCollectionId:2:37/2:7": {
+              "r": 0.9800000190734863,
+              "g": 0.949999988079071,
+              "b": 0.8999999761581421,
+              "a": 1
+            },
+            "VariableCollectionId:2:37/2:8": {
+              "r": 0.10000000149011612,
+              "g": 0.07999999821186066,
+              "b": 0.05999999865889549,
+              "a": 1
+            }
+          },
+          "color/semantic/border": {
+            "VariableCollectionId:2:37/2:7": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            },
+            "VariableCollectionId:2:37/2:8": {
+              "r": 0.30000001192092896,
+              "g": 0.30000001192092896,
+              "b": 0.30000001192092896,
+              "a": 1
+            }
+          },
+          "space/small": {
+            "VariableCollectionId:2:37/2:7": 4,
+            "VariableCollectionId:2:37/2:8": 4
+          },
+          "space/medium": {
+            "VariableCollectionId:2:37/2:7": 12,
+            "VariableCollectionId:2:37/2:8": 8
+          },
+          "radius/button": {
+            "VariableCollectionId:2:37/2:7": 6,
+            "VariableCollectionId:2:37/2:8": 6
+          },
+          "text/enabled": {
+            "VariableCollectionId:2:37/2:7": false,
+            "VariableCollectionId:2:37/2:8": true
+          },
+          "brand/name": {
+            "VariableCollectionId:2:37/2:7": "Acme Sub",
+            "VariableCollectionId:2:37/2:8": "Base"
+          },
+          "brand/tagline": {
+            "VariableCollectionId:2:37/2:7": "Acme tagline",
+            "VariableCollectionId:2:37/2:8": "Base tagline"
+          },
+          "color/semantic/brand": {
+            "VariableCollectionId:2:37/2:7": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:18"
+            },
+            "VariableCollectionId:2:37/2:8": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:19"
+            }
+          }
+        },
+        "ExtColl Primitives": {
+          "brand/red-500": {
+            "2:2": {
+              "r": 0.8999999761581421,
+              "g": 0.20000000298023224,
+              "b": 0.20000000298023224,
+              "a": 1
+            }
+          },
+          "brand/red-900": {
+            "2:2": {
+              "r": 0.44999998807907104,
+              "g": 0.05000000074505806,
+              "b": 0.05000000074505806,
+              "a": 1
+            }
+          },
+          "brand/accent-alias": {
+            "2:2": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:19"
+            }
+          },
+          "size/base": {
+            "2:2": 16
+          }
+        },
+        "Primitives Acme": {
+          "brand/red-500": {
+            "VariableCollectionId:2:39/2:9": {
+              "r": 0.800000011920929,
+              "g": 0.10000000149011612,
+              "b": 0.5,
+              "a": 1
+            }
+          },
+          "brand/red-900": {
+            "VariableCollectionId:2:39/2:9": {
+              "r": 0.44999998807907104,
+              "g": 0.05000000074505806,
+              "b": 0.05000000074505806,
+              "a": 1
+            }
+          },
+          "brand/accent-alias": {
+            "VariableCollectionId:2:39/2:9": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:18"
+            }
+          },
+          "size/base": {
+            "VariableCollectionId:2:39/2:9": 18
+          }
+        }
+      }
+    },
+    "consumer-resolution": {
+      "ok": true,
+      "ms": 206,
+      "data": {
+        "parent/Light": {
+          "pins": [
+            {
+              "collection": "ExtColl Parent",
+              "modeId": "2:0",
+              "ok": true,
+              "via": "collection object"
+            }
+          ],
+          "explicitVariableModes": {
+            "VariableCollectionId:2:2": "2:0"
+          },
+          "resolved": {
+            "text (aliases blue-900)": {
+              "value": {
+                "r": 0.09000000357627869,
+                "g": 0.12999999523162842,
+                "b": 0.3400000035762787,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "accent": {
+              "value": {
+                "r": 0.23000000417232513,
+                "g": 0.5099999904632568,
+                "b": 0.9599999785423279,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "link (re-pointed alias)": {
+              "value": {
+                "r": 0.23000000417232513,
+                "g": 0.5099999904632568,
+                "b": 0.9599999785423279,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "brand (aliases primitives)": {
+              "value": {
+                "r": 0.8999999761581421,
+                "g": 0.20000000298023224,
+                "b": 0.20000000298023224,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "border": {
+              "value": {
+                "r": 0.800000011920929,
+                "g": 0.800000011920929,
+                "b": 0.800000011920929,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "blue-900": {
+              "value": {
+                "r": 0.09000000357627869,
+                "g": 0.12999999523162842,
+                "b": 0.3400000035762787,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "surface": {
+              "value": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "space/medium": {
+              "value": 8,
+              "resolvedType": "FLOAT"
+            },
+            "brand/name": {
+              "value": "Base",
+              "resolvedType": "STRING"
+            }
+          },
+          "bindErrors": {}
+        },
+        "parent/Dark": {
+          "pins": [
+            {
+              "collection": "ExtColl Parent",
+              "modeId": "2:1",
+              "ok": true,
+              "via": "collection object"
+            }
+          ],
+          "explicitVariableModes": {
+            "VariableCollectionId:2:2": "2:1"
+          },
+          "resolved": {
+            "text (aliases blue-900)": {
+              "value": {
+                "r": 0.09000000357627869,
+                "g": 0.12999999523162842,
+                "b": 0.3400000035762787,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "accent": {
+              "value": {
+                "r": 0.09000000357627869,
+                "g": 0.12999999523162842,
+                "b": 0.3400000035762787,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "link (re-pointed alias)": {
+              "value": {
+                "r": 0.23000000417232513,
+                "g": 0.5099999904632568,
+                "b": 0.9599999785423279,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "brand (aliases primitives)": {
+              "value": {
+                "r": 0.44999998807907104,
+                "g": 0.05000000074505806,
+                "b": 0.05000000074505806,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "border": {
+              "value": {
+                "r": 0.30000001192092896,
+                "g": 0.30000001192092896,
+                "b": 0.30000001192092896,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "blue-900": {
+              "value": {
+                "r": 0.09000000357627869,
+                "g": 0.12999999523162842,
+                "b": 0.3400000035762787,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "surface": {
+              "value": {
+                "r": 0.07000000029802322,
+                "g": 0.07000000029802322,
+                "b": 0.07000000029802322,
+                "a": 1
+              },
+              "resolvedType": "COLOR"
+            },
+            "space/medium": {
+              "value": 8,
+              "resolvedType": "FLOAT"
+            },
+            "brand/name": {
+              "value": "Base",
+              "resolvedType": "STRING"
+            }
+          },
+          "bindErrors": {}
+        },
+        "Acme/Light": {
+          "pins": [
+            {
+              "collection": "Acme",
+              "modeId": "VariableCollectionId:2:23/2:3",
+              "ok": true,
+              "via": "collection object"
+            }
+          ],
+          "explicitVariableModes": {
+            "VariableCollectionId:2:23": "VariableCollectionId:2:23/2:3"
+          },
+          "resolved": {
+            "text (aliases blue-900)": null,
+            "accent": null,
+            "link (re-pointed alias)": null,
+            "brand (aliases primitives)": null,
+            "border": null,
+            "blue-900": null,
+            "surface": null,
+            "space/medium": null,
+            "brand/name": null
+          },
+          "bindErrors": {}
+        },
+        "Acme/Dark": {
+          "pins": [
+            {
+              "collection": "Acme",
+              "modeId": "VariableCollectionId:2:23/2:4",
+              "ok": true,
+              "via": "collection object"
+            }
+          ],
+          "explicitVariableModes": {
+            "VariableCollectionId:2:23": "VariableCollectionId:2:23/2:4"
+          },
+          "resolved": {
+            "text (aliases blue-900)": null,
+            "accent": null,
+            "link (re-pointed alias)": null,
+            "brand (aliases primitives)": null,
+            "border": null,
+            "blue-900": null,
+            "surface": null,
+            "space/medium": null,
+            "brand/name": null
+          },
+          "bindErrors": {}
+        },
+        "Beta/Light": {
+          "pins": [
+            {
+              "collection": "Beta",
+              "modeId": "VariableCollectionId:2:34/2:5",
+              "ok": true,
+              "via": "collection object"
+            }
+          ],
+          "explicitVariableModes": {
+            "VariableCollectionId:2:34": "VariableCollectionId:2:34/2:5"
+          },
+          "resolved": {
+            "text (aliases blue-900)": null,
+            "accent": null,
+            "link (re-pointed alias)": null,
+            "brand (aliases primitives)": null,
+            "border": null,
+            "blue-900": null,
+            "surface": null,
+            "space/medium": null,
+            "brand/name": null
+          },
+          "bindErrors": {}
+        },
+        "Acme Sub/Light": {
+          "pins": [
+            {
+              "collection": "Acme Sub",
+              "modeId": "VariableCollectionId:2:37/2:7",
+              "ok": true,
+              "via": "collection object"
+            }
+          ],
+          "explicitVariableModes": {
+            "VariableCollectionId:2:37": "VariableCollectionId:2:37/2:7"
+          },
+          "resolved": {
+            "text (aliases blue-900)": null,
+            "accent": null,
+            "link (re-pointed alias)": null,
+            "brand (aliases primitives)": null,
+            "border": null,
+            "blue-900": null,
+            "surface": null,
+            "space/medium": null,
+            "brand/name": null
+          },
+          "bindErrors": {}
+        },
+        "Primitives Acme": {
+          "pins": [
+            {
+              "collection": "Primitives Acme",
+              "modeId": "VariableCollectionId:2:39/2:9",
+              "ok": true,
+              "via": "collection object"
+            }
+          ],
+          "explicitVariableModes": {
+            "VariableCollectionId:2:39": "VariableCollectionId:2:39/2:9"
+          },
+          "resolved": {
+            "red-500": null,
+            "accent-alias": null,
+            "size/base": null
+          },
+          "bindErrors": {}
+        },
+        "Acme/Light + Primitives Acme": {
+          "pins": [
+            {
+              "collection": "Acme",
+              "modeId": "VariableCollectionId:2:23/2:3",
+              "ok": true,
+              "via": "collection object"
+            },
+            {
+              "collection": "Primitives Acme",
+              "modeId": "VariableCollectionId:2:39/2:9",
+              "ok": true,
+              "via": "collection object"
+            }
+          ],
+          "explicitVariableModes": {
+            "VariableCollectionId:2:23": "VariableCollectionId:2:23/2:3",
+            "VariableCollectionId:2:39": "VariableCollectionId:2:39/2:9"
+          },
+          "resolved": {
+            "text (aliases blue-900)": null,
+            "accent": null,
+            "link (re-pointed alias)": null,
+            "brand (aliases primitives)": null,
+            "border": null,
+            "blue-900": null,
+            "surface": null,
+            "space/medium": null,
+            "brand/name": null,
+            "red-500": null,
+            "accent-alias": null,
+            "size/base": null
+          },
+          "bindErrors": {}
+        }
+      }
+    },
+    "reset-override (removeOverridesForVariable)": {
+      "ok": true,
+      "ms": 2,
+      "data": {
+        "before": {
+          "overrides": {
+            "VariableCollectionId:2:23/2:3": "Acme tagline"
+          },
+          "effective": {
+            "VariableCollectionId:2:23/2:3": "Acme tagline",
+            "VariableCollectionId:2:23/2:4": "Base tagline"
+          }
+        },
+        "after": {
+          "overrides": "__undefined__",
+          "effective": {
+            "VariableCollectionId:2:23/2:3": "Base tagline",
+            "VariableCollectionId:2:23/2:4": "Base tagline"
+          }
+        }
+      }
+    },
+    "extension-capability.rename-own-mode": {
+      "ok": false,
+      "ms": 0,
+      "error": "not a function",
+      "errorType": "TypeError"
+    },
+    "extension-capability.add-own-mode (expected not allowed)": {
+      "ok": true,
+      "ms": 0,
+      "data": {
+        "allowed": false,
+        "error": "not a function"
+      }
+    },
+    "extension-capability.create-own-variable (expected not allowed)": {
+      "ok": true,
+      "ms": 0,
+      "data": {
+        "allowed": false,
+        "error": "in createVariable: Cannot create variables in extended variable collections"
+      }
+    },
+    "variable-sync.add-override-delete": {
+      "ok": true,
+      "ms": 7,
+      "data": {
+        "afterAdd": {
+          "inAcmeVariableIds": true,
+          "acmeEffective": {
+            "VariableCollectionId:2:23/2:3": 1,
+            "VariableCollectionId:2:23/2:4": 1
+          }
+        },
+        "afterOverride": {
+          "acmeOverride": {
+            "VariableCollectionId:2:23/2:3": 2
+          }
+        },
+        "afterDelete": {
+          "inAcmeVariableIds": false,
+          "staleOverride": "__undefined__"
+        }
+      }
+    },
+    "mode-sync.add-parent-mode": {
+      "ok": true,
+      "ms": 4,
+      "data": {
+        "addedModeId": "2:10",
+        "modes": {
+          "parent": [
+            {
+              "name": "Light",
+              "modeId": "2:0"
+            },
+            {
+              "name": "Dark",
+              "modeId": "2:1"
+            },
+            {
+              "name": "High contrast",
+              "modeId": "2:10"
+            }
+          ],
+          "acme": [
+            {
+              "name": "Light",
+              "modeId": "VariableCollectionId:2:23/2:3",
+              "parentModeId": "2:0"
+            },
+            {
+              "name": "Dark",
+              "modeId": "VariableCollectionId:2:23/2:4",
+              "parentModeId": "2:1"
+            },
+            {
+              "name": "High contrast",
+              "modeId": "VariableCollectionId:2:23/2:11",
+              "parentModeId": "2:10"
+            }
+          ],
+          "beta": [
+            {
+              "name": "Light",
+              "modeId": "VariableCollectionId:2:34/2:5",
+              "parentModeId": "2:0"
+            },
+            {
+              "name": "Dark",
+              "modeId": "VariableCollectionId:2:34/2:6",
+              "parentModeId": "2:1"
+            },
+            {
+              "name": "High contrast",
+              "modeId": "VariableCollectionId:2:34/2:12",
+              "parentModeId": "2:10"
+            }
+          ],
+          "sub": [
+            {
+              "name": "Light",
+              "modeId": "VariableCollectionId:2:37/2:7",
+              "parentModeId": "VariableCollectionId:2:23/2:3"
+            },
+            {
+              "name": "Dark",
+              "modeId": "VariableCollectionId:2:37/2:8",
+              "parentModeId": "VariableCollectionId:2:23/2:4"
+            },
+            {
+              "name": "High contrast",
+              "modeId": "VariableCollectionId:2:37/2:13",
+              "parentModeId": "VariableCollectionId:2:23/2:11"
+            }
+          ]
+        }
+      }
+    },
+    "mode-sync.rename-parent-mode": {
+      "ok": true,
+      "ms": 2,
+      "data": {
+        "modes": {
+          "parent": [
+            {
+              "name": "Light (renamed)",
+              "modeId": "2:0"
+            },
+            {
+              "name": "Dark",
+              "modeId": "2:1"
+            },
+            {
+              "name": "High contrast",
+              "modeId": "2:10"
+            }
+          ],
+          "acme": [
+            {
+              "name": "Light (renamed)",
+              "modeId": "VariableCollectionId:2:23/2:3",
+              "parentModeId": "2:0"
+            },
+            {
+              "name": "Dark",
+              "modeId": "VariableCollectionId:2:23/2:4",
+              "parentModeId": "2:1"
+            },
+            {
+              "name": "High contrast",
+              "modeId": "VariableCollectionId:2:23/2:11",
+              "parentModeId": "2:10"
+            }
+          ],
+          "beta": [
+            {
+              "name": "Light (renamed)",
+              "modeId": "VariableCollectionId:2:34/2:5",
+              "parentModeId": "2:0"
+            },
+            {
+              "name": "Dark",
+              "modeId": "VariableCollectionId:2:34/2:6",
+              "parentModeId": "2:1"
+            },
+            {
+              "name": "High contrast",
+              "modeId": "VariableCollectionId:2:34/2:12",
+              "parentModeId": "2:10"
+            }
+          ],
+          "sub": [
+            {
+              "name": "Light (renamed)",
+              "modeId": "VariableCollectionId:2:37/2:7",
+              "parentModeId": "VariableCollectionId:2:23/2:3"
+            },
+            {
+              "name": "Dark",
+              "modeId": "VariableCollectionId:2:37/2:8",
+              "parentModeId": "VariableCollectionId:2:23/2:4"
+            },
+            {
+              "name": "High contrast",
+              "modeId": "VariableCollectionId:2:37/2:13",
+              "parentModeId": "VariableCollectionId:2:23/2:11"
+            }
+          ]
+        }
+      }
+    },
+    "mode-sync.delete-parent-mode": {
+      "ok": true,
+      "ms": 5,
+      "data": {
+        "before": {
+          "overrideOnDoomedMode": true,
+          "brandNameOverrides": {
+            "VariableCollectionId:2:23/2:11": "Acme high contrast",
+            "VariableCollectionId:2:23/2:3": "Acme"
+          }
+        },
+        "after": {
+          "modes": {
+            "parent": [
+              {
+                "name": "Light (renamed)",
+                "modeId": "2:0"
+              },
+              {
+                "name": "Dark",
+                "modeId": "2:1"
+              }
+            ],
+            "acme": [
+              {
+                "name": "Light (renamed)",
+                "modeId": "VariableCollectionId:2:23/2:3",
+                "parentModeId": "2:0"
+              },
+              {
+                "name": "Dark",
+                "modeId": "VariableCollectionId:2:23/2:4",
+                "parentModeId": "2:1"
+              }
+            ],
+            "beta": [
+              {
+                "name": "Light (renamed)",
+                "modeId": "VariableCollectionId:2:34/2:5",
+                "parentModeId": "2:0"
+              },
+              {
+                "name": "Dark",
+                "modeId": "VariableCollectionId:2:34/2:6",
+                "parentModeId": "2:1"
+              }
+            ],
+            "sub": [
+              {
+                "name": "Light (renamed)",
+                "modeId": "VariableCollectionId:2:37/2:7",
+                "parentModeId": "VariableCollectionId:2:23/2:3"
+              },
+              {
+                "name": "Dark",
+                "modeId": "VariableCollectionId:2:37/2:8",
+                "parentModeId": "VariableCollectionId:2:23/2:4"
+              }
+            ]
+          },
+          "brandNameOverrides": {
+            "VariableCollectionId:2:23/2:3": "Acme"
+          }
+        },
+        "orphanCleanup": "no orphaned mode left on Acme"
+      }
+    },
+    "mode-sync.restore-name": {
+      "ok": true,
+      "ms": 2,
+      "data": {
+        "modes": {
+          "parent": [
+            {
+              "name": "Light",
+              "modeId": "2:0"
+            },
+            {
+              "name": "Dark",
+              "modeId": "2:1"
+            }
+          ],
+          "acme": [
+            {
+              "name": "Light",
+              "modeId": "VariableCollectionId:2:23/2:3",
+              "parentModeId": "2:0"
+            },
+            {
+              "name": "Dark",
+              "modeId": "VariableCollectionId:2:23/2:4",
+              "parentModeId": "2:1"
+            }
+          ],
+          "beta": [
+            {
+              "name": "Light",
+              "modeId": "VariableCollectionId:2:34/2:5",
+              "parentModeId": "2:0"
+            },
+            {
+              "name": "Dark",
+              "modeId": "VariableCollectionId:2:34/2:6",
+              "parentModeId": "2:1"
+            }
+          ],
+          "sub": [
+            {
+              "name": "Light",
+              "modeId": "VariableCollectionId:2:37/2:7",
+              "parentModeId": "VariableCollectionId:2:23/2:3"
+            },
+            {
+              "name": "Dark",
+              "modeId": "VariableCollectionId:2:37/2:8",
+              "parentModeId": "VariableCollectionId:2:23/2:4"
+            }
+          ]
+        }
+      }
+    },
+    "snapshot.collections.final": {
+      "ok": true,
+      "ms": 1,
+      "data": [
+        {
+          "id": "VariableCollectionId:2:2",
+          "name": "ExtColl Parent",
+          "key": "2c02ce16e5e2c67590fc98d9ed33bed53aee5747",
+          "remote": false,
+          "defaultModeId": "2:0",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "2:0",
+              "name": "Light",
+              "parentModeId": "__undefined__"
+            },
+            {
+              "modeId": "2:1",
+              "name": "Dark",
+              "parentModeId": "__undefined__"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:3",
+            "VariableID:2:4",
+            "VariableID:2:5",
+            "VariableID:2:6",
+            "VariableID:2:7",
+            "VariableID:2:8",
+            "VariableID:2:9",
+            "VariableID:2:10",
+            "VariableID:2:11",
+            "VariableID:2:12",
+            "VariableID:2:13",
+            "VariableID:2:14",
+            "VariableID:2:15",
+            "VariableID:2:22"
+          ],
+          "isExtension": false,
+          "parentVariableCollectionId": "__undefined__",
+          "rootVariableCollectionId": "__undefined__",
+          "variableOverrides": "__undefined__"
+        },
+        {
+          "id": "VariableCollectionId:2:17",
+          "name": "ExtColl Primitives",
+          "key": "c05724b76a5ab86c1cc1c8d0e6911cae691d5a2a",
+          "remote": false,
+          "defaultModeId": "2:2",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "2:2",
+              "name": "Default",
+              "parentModeId": "__undefined__"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:18",
+            "VariableID:2:19",
+            "VariableID:2:20",
+            "VariableID:2:21"
+          ],
+          "isExtension": false,
+          "parentVariableCollectionId": "__undefined__",
+          "rootVariableCollectionId": "__undefined__",
+          "variableOverrides": "__undefined__"
+        },
+        {
+          "id": "VariableCollectionId:2:23",
+          "name": "Acme",
+          "key": "d7b0900ceadf7debd50c2b297811fdf2b344854e",
+          "remote": false,
+          "defaultModeId": "2:3",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "VariableCollectionId:2:23/2:3",
+              "name": "Light",
+              "parentModeId": "2:0"
+            },
+            {
+              "modeId": "VariableCollectionId:2:23/2:4",
+              "name": "Dark",
+              "parentModeId": "2:1"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:3",
+            "VariableID:2:4",
+            "VariableID:2:5",
+            "VariableID:2:6",
+            "VariableID:2:7",
+            "VariableID:2:8",
+            "VariableID:2:9",
+            "VariableID:2:10",
+            "VariableID:2:11",
+            "VariableID:2:12",
+            "VariableID:2:13",
+            "VariableID:2:14",
+            "VariableID:2:15",
+            "VariableID:2:22"
+          ],
+          "isExtension": true,
+          "parentVariableCollectionId": "VariableCollectionId:2:2",
+          "rootVariableCollectionId": "VariableCollectionId:2:2",
+          "variableOverrides": {
+            "VariableID:2:13": {
+              "VariableCollectionId:2:23/2:3": false
+            },
+            "VariableID:2:12": {
+              "VariableCollectionId:2:23/2:4": 6,
+              "VariableCollectionId:2:23/2:3": 6
+            },
+            "VariableID:2:5": {
+              "VariableCollectionId:2:23/2:3": {
+                "r": 1,
+                "g": 0.41999998688697815,
+                "b": 0,
+                "a": 1
+              }
+            },
+            "VariableID:2:4": {
+              "VariableCollectionId:2:23/2:4": {
+                "r": 0.8999999761581421,
+                "g": 0.4000000059604645,
+                "b": 0.4000000059604645,
+                "a": 1
+              },
+              "VariableCollectionId:2:23/2:3": {
+                "r": 0.6000000238418579,
+                "g": 0.10000000149011612,
+                "b": 0.10000000149011612,
+                "a": 1
+              }
+            },
+            "VariableID:2:14": {
+              "VariableCollectionId:2:23/2:3": "Acme"
+            },
+            "VariableID:2:11": {
+              "VariableCollectionId:2:23/2:3": 12
+            },
+            "VariableID:2:8": {
+              "VariableCollectionId:2:23/2:4": {
+                "r": 0.10000000149011612,
+                "g": 0.07999999821186066,
+                "b": 0.05999999865889549,
+                "a": 1
+              },
+              "VariableCollectionId:2:23/2:3": {
+                "r": 0.9800000190734863,
+                "g": 0.949999988079071,
+                "b": 0.8999999761581421,
+                "a": 1
+              }
+            },
+            "VariableID:2:9": {
+              "VariableCollectionId:2:23/2:3": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2:3"
+              }
+            },
+            "VariableID:2:7": {
+              "VariableCollectionId:2:23/2:4": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2:4"
+              },
+              "VariableCollectionId:2:23/2:3": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2:18"
+              }
+            }
+          }
+        },
+        {
+          "id": "VariableCollectionId:2:34",
+          "name": "Beta",
+          "key": "9ec816651c03139ecc17086d9f224aa1331a184d",
+          "remote": false,
+          "defaultModeId": "2:5",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "VariableCollectionId:2:34/2:5",
+              "name": "Light",
+              "parentModeId": "2:0"
+            },
+            {
+              "modeId": "VariableCollectionId:2:34/2:6",
+              "name": "Dark",
+              "parentModeId": "2:1"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:3",
+            "VariableID:2:4",
+            "VariableID:2:5",
+            "VariableID:2:6",
+            "VariableID:2:7",
+            "VariableID:2:8",
+            "VariableID:2:9",
+            "VariableID:2:10",
+            "VariableID:2:11",
+            "VariableID:2:12",
+            "VariableID:2:13",
+            "VariableID:2:14",
+            "VariableID:2:15",
+            "VariableID:2:22"
+          ],
+          "isExtension": true,
+          "parentVariableCollectionId": "VariableCollectionId:2:2",
+          "rootVariableCollectionId": "VariableCollectionId:2:2",
+          "variableOverrides": {
+            "VariableID:2:14": {
+              "VariableCollectionId:2:34/2:5": "Beta"
+            },
+            "VariableID:2:11": {
+              "VariableCollectionId:2:34/2:5": 20
+            }
+          }
+        },
+        {
+          "id": "VariableCollectionId:2:37",
+          "name": "Acme Sub",
+          "key": "7fc415fae17716aca9c0ecf06ff4bb0ef599d779",
+          "remote": false,
+          "defaultModeId": "2:7",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "VariableCollectionId:2:37/2:7",
+              "name": "Light",
+              "parentModeId": "VariableCollectionId:2:23/2:3"
+            },
+            {
+              "modeId": "VariableCollectionId:2:37/2:8",
+              "name": "Dark",
+              "parentModeId": "VariableCollectionId:2:23/2:4"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:3",
+            "VariableID:2:4",
+            "VariableID:2:5",
+            "VariableID:2:6",
+            "VariableID:2:7",
+            "VariableID:2:8",
+            "VariableID:2:9",
+            "VariableID:2:10",
+            "VariableID:2:11",
+            "VariableID:2:12",
+            "VariableID:2:13",
+            "VariableID:2:14",
+            "VariableID:2:15",
+            "VariableID:2:22"
+          ],
+          "isExtension": true,
+          "parentVariableCollectionId": "VariableCollectionId:2:23",
+          "rootVariableCollectionId": "VariableCollectionId:2:2",
+          "variableOverrides": {
+            "VariableID:2:14": {
+              "VariableCollectionId:2:37/2:7": "Acme Sub"
+            }
+          }
+        },
+        {
+          "id": "VariableCollectionId:2:39",
+          "name": "Primitives Acme",
+          "key": "48c94196af19115eb139909d18aa9847c562719a",
+          "remote": false,
+          "defaultModeId": "2:9",
+          "hiddenFromPublishing": false,
+          "modes": [
+            {
+              "modeId": "VariableCollectionId:2:39/2:9",
+              "name": "Default",
+              "parentModeId": "2:2"
+            }
+          ],
+          "variableIds": [
+            "VariableID:2:18",
+            "VariableID:2:19",
+            "VariableID:2:20",
+            "VariableID:2:21"
+          ],
+          "isExtension": true,
+          "parentVariableCollectionId": "VariableCollectionId:2:17",
+          "rootVariableCollectionId": "VariableCollectionId:2:17",
+          "variableOverrides": {
+            "VariableID:2:20": {
+              "VariableCollectionId:2:39/2:9": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2:18"
+              }
+            },
+            "VariableID:2:21": {
+              "VariableCollectionId:2:39/2:9": 18
+            },
+            "VariableID:2:18": {
+              "VariableCollectionId:2:39/2:9": {
+                "r": 0.800000011920929,
+                "g": 0.10000000149011612,
+                "b": 0.5,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+GUESSED (1)
+3 variables had no usage scope; typed as plain numbers — scope them in Figma (Gap, Corner radius, Font size…) if they are sizes: size/base, space/medium, space/small
